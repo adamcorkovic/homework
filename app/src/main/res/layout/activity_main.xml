@@ -15,22 +15,22 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/MacalistairRitchieImage"
+            android:id="@+id/macalistairRitchieImage"
             android:layout_width="100dp"
             android:layout_height="109dp"
-            android:layout_alignTop="@+id/MacalistairRitchieImage"
+            android:layout_alignTop="@+id/macalistairRitchieImage"
             app:srcCompat="@drawable/dennis_ritchie"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
 
 
         <MultiAutoCompleteTextView
-            android:id="@+id/MacalistaiRitchieBiography"
+            android:id="@+id/macalistaiRitchieBiography"
             android:layout_width="278dp"
             android:layout_height="109dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="0dp"
-            android:layout_toEndOf="@+id/MacalistairRitchieImage"
+            android:layout_toEndOf="@+id/macalistairRitchieImage"
             android:text="@string/dennis_ritchies_biography"
             tools:layout_editor_absoluteX="117dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -44,22 +44,22 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/TimBernersLeeImage"
+            android:id="@+id/timBernersLeeImage"
             android:layout_width="100dp"
             android:layout_height="109dp"
-            android:layout_alignTop="@+id/MacalistaiRitchieBiography"
+            android:layout_alignTop="@+id/macalistaiRitchieBiography"
             app:srcCompat="@drawable/tim_berners_lee"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
 
 
         <MultiAutoCompleteTextView
-            android:id="@+id/TimBernersLeeBiography"
+            android:id="@+id/timBernersLeeBiography"
             android:layout_width="278dp"
             android:layout_height="109dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="0dp"
-            android:layout_toEndOf="@+id/MacalistairRitchieImage"
+            android:layout_toEndOf="@+id/macalistairRitchieImage"
             android:text="@string/tim_berners_lees_biography"
             tools:layout_editor_absoluteX="117dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -74,22 +74,22 @@
         android:orientation="horizontal">
 
         <ImageButton
-            android:id="@+id/EdsgerDijkstraImage"
+            android:id="@+id/edsgerDijkstraImage"
             android:layout_width="100dp"
             android:layout_height="109dp"
-            android:layout_alignTop="@+id/TimBernersLeeBiography"
+            android:layout_alignTop="@+id/timBernersLeeBiography"
             app:srcCompat="@drawable/edsger_dijkstra"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="16dp" />
 
 
         <MultiAutoCompleteTextView
-            android:id="@+id/EdsgerDijkstraBiography"
+            android:id="@+id/edsgerDijkstraBiography"
             android:layout_width="278dp"
             android:layout_height="109dp"
             android:layout_alignParentTop="true"
             android:layout_marginTop="0dp"
-            android:layout_toEndOf="@+id/TimBernersLeeImage"
+            android:layout_toEndOf="@+id/timBernersLeeImage"
             android:text="@string/edsger_dijkstra_biography"
             tools:layout_editor_absoluteX="117dp"
             tools:layout_editor_absoluteY="16dp" />
